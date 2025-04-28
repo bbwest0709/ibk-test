@@ -213,8 +213,24 @@ body {
                     }
                     ul {
                         display: flex;
+                        align-items: center;
+                        gap: 1rem;
 
-
+                        .li {
+                            .button {
+                                display: inline-block;
+                                position: relative;
+                                float: left;
+                                width: 4rem;
+                                height: 4rem;
+                                background-color: var(--basic-color-w);
+                                border-radius: 50%;
+                                box-shadow: 0rem 0.5rem 1rem 0rem rgba(13, 14, 15, 0.08);
+                                transition: 0.2s;
+                                line-height: 4rem;
+                                box-sizing: border-box;
+                            }
+                        }
                     }
                 }
                 .control-btn-wrap::before {
